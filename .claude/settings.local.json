@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx vitest *)",
+      "mcp__playwright",
+      "PowerShell(if \\($env:ANTHROPIC_API_KEY\\) { \"Key found: $\\($env:ANTHROPIC_API_KEY.Substring\\(0,8\\)\\)...\" } else { \"No ANTHROPIC_API_KEY set\" })"
+    ]
+  }
+}
